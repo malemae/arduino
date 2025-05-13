@@ -1,8 +1,8 @@
 #include <WiFiS3.h>   // Library for Arduino UNO R4 WiFi
 
 // Replace with your WiFi network details
-const char* ssid = "Vodafone-A42243122";      
-const char* password = "9Ah2NeptyJr69X2e";  
+const char* ssid = "WIFI_NAME";      
+const char* password = "WIFI_PASSWORD";  
 
 WiFiServer server(80);  // Create server on port 80 (HTTP)
 
